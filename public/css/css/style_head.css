@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    padding: 20px 0px;
+}
+.head .logo{/*“当当网”图片*/
+    position: absolute;
+    /*如果这里是向左浮动，则text_input获取offsetLeft时，是获取到图片右边的距离而不是到左边屏幕的距离*/
+}
+
+/*输入文本框部分*/
+.head .text{
+    float: left;/*设置浮动，是的二维码和文本框在同一水平面上*/
+    margin: 20px 150px;
+    margin-left: 380px;
+}
+.head .text #text_input{/*输入文本框*/
+    width: 400px;
+    height: 35px;
+    margin-bottom: 7px;
+}
+.head .text .text-btn{/*“全部分类”按钮*/
+    height: 19px;
+    padding: 9px;
+    padding-right: 30px;
+
+    border: 1px solid #aaa;
+    color: #aaa;
+    font-weight: bold;
+    position: absolute;
+}
+.head .text .text-btn:hover{
+    cursor: pointer;/*鼠标变手指形状*/
+}
+
+/*输入框下面的文字*/
+.head .text p a{
+    font-size: 13px;
+    color: #aaa;
+}
+.head .text p a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.head .text p #gaojisousuo{
+    margin-left: 220px;
+}
+
+.head .erweima{
+    float: right;
+}
+
+/*“全部分类”按钮弹出下拉菜单*/
+.head .text .text-btn-pop{
+    width: 106px;
+    height: 300px;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: scroll;/*滚动条*/
+
+    position: absolute;/*位置*/
+    z-index: 3;
+}
+.head .text .text-btn-pop ul{
+    border: 1px solid #aaa;
+    border-right: none;
+    list-style: none;
+    overflow: hidden;
+}
+.head .text .text-btn-pop ul li{
+    width: 100%;
+    padding: 5px 13px;
+}
+.head .text .text-btn-pop ul li:hover{
+    background-color: gainsboro;
+}
+.head .text .text-btn-pop ul li a{
+    color: black;
+    font-size: 12px;
+}
+.head .text .text-btn-pop ul li a:hover{
+    cursor: pointer;
+    color: black;
+}
+

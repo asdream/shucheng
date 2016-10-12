@@ -1,0 +1,261 @@
+.body{
+    clear: both;
+    margin-top: 65px;
+    position: relative;
+}
+.body .body-left, .body-center, .body-right{
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+
+/*左边*/
+.body .body-left{
+    width: 200px;
+}
+/*左边标题*/
+.body .body-left .body-left-title{
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    top: -27px;
+}
+.body .body-left .body-left-title a{
+    clear: both;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+/*左边内容*/
+.body .body-left .body-left-content{
+    border: 3px solid rosybrown;
+}
+.body .body-left .body-left-content ul{
+    list-style: none;
+}
+.body .body-left .body-left-content ul li{
+    padding: 9px 15px;
+    background-color: #eee;/*列表的背景色。*/
+}
+.body .body-left .body-left-content ul li:hover{
+    background-color: white;
+}
+.body .body-left .body-left-content ul li a{
+    color: saddlebrown;
+    font-size: 13px;
+    font-weight: 600;
+}
+.body .body-left .body-left-content .body-left-content-div{
+    background-color: white;
+    line-height: 25px;
+    padding: 10px;
+}
+.body .body-left .body-left-content .body-left-content-div a, .body-left-pop a{
+    font-size: 10px;
+    margin-left: 15px;
+}
+.body .body-left .body-left-content .body-left-content-div a:hover, .body-left-pop a:hover{
+    text-decoration: underline;
+}
+/*左边部分的弹出窗口、以及对应按钮*/
+.body .body-left .body-left-content .body-left-select{
+    color: saddlebrown;
+    font-size: 13px;
+    font-weight: 600;
+}
+.style_body_left_select{/* .body .body-left .body-left-content .body-left-select:hover*/
+    /*padding: 8px 15px;/!*上下各-1px。无效果？!在js中设置*!/*/
+    /*background-color: white;*/
+    border: 1px solid rosybrown;
+    width: 190px;
+    border-right: 0px;
+}
+.body .body-left .body-left-pop{
+    position: absolute;
+    z-index: 3;
+    display: none;
+
+    width: 500px;
+    line-height: 60px;
+    padding-left: 100px;
+    background-color: white;
+    border: 1px solid rosybrown;
+    border-left: 0px;
+}
+.body .body-left .body-left-pop-first{
+    font-weight: 900;
+    color: saddlebrown
+}
+.body .body-left .body-left-pop-first:hover{
+    text-decoration: underline;
+    color: red;
+}
+/*左边下面*/
+.body .body-left .body-left-tail{
+    width: 100%;
+    background-color: white;
+    border: 1px solid rosybrown;
+    margin-top: 10px;
+}
+.body .body-left .body-left-tail p{
+     padding: 7px 15px;
+ }
+.body .body-left .body-left-tail .body-left-tail-title{
+    color: saddlebrown;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #eee
+}
+.body .body-left .body-left-tail p a{
+    color: saddlebrown;
+    font-size: 10px;
+    margin-right: 15px;
+}
+.body .body-left .body-left-tail p a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/*中间*/
+.body .body-center{
+    width: 750px;
+}
+/*中间头部（图片切换）*/
+.body .body-center .body-center-title{
+    position: relative;
+    height: 320px;/*图片高度315px*/
+}
+.body .body-center .body-center-title .body-center-title-img{
+    position: absolute;
+    z-index: 1;
+}
+.body .body-center .body-center-title .body-center-title-number{
+    float: right;
+    position: relative;
+    top: 280px;
+    z-index: 3;
+}
+.body .body-center .body-center-title .body-center-title-num{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    float: left;/*位置*/
+    margin: 5px;
+}
+.body .body-center .body-center-title .body-center-title-num:hover{
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+/*中间导航栏*/
+.body .body-center .body-center-daohang{
+    padding: 10px 20px;
+    color: saddlebrown;
+}
+.body .body-center .body-center-daohang h3{
+    font-size: 17px;
+    font-weight: 900;
+    margin: 8px 20px;
+    margin-bottom: 0px;
+    float: left;
+    margin-right: 60px;
+}
+.body .body-center .body-center-daohang ul{
+    list-style: none;
+    margin-top: 5px;
+}
+.body .body-center .body-center-daohang ul li{
+    font-size: 13px;
+    float: left;
+    padding: 5px 10px;
+    margin-left: 15px;
+}
+/*.body .body-center .body-center-daohang ul li:hover{*/
+.style_body-center-daohang-li-mouseover{
+    color: white;
+    font-weight: 900;/*会更改到每个li的宽度，即每个li位置会变，所以放在js中设置*/
+    background-color: saddlebrown;
+    cursor: pointer;
+}
+/*中间下面，书本*/
+.body .body-center .body-center-books{
+    margin: 30px auto;
+    display: none;
+}
+.body .body-center .body-center-books-box{
+    padding: 17px;
+    float: left;
+}
+.body .body-center .body-center-books-box .books-info{
+    width: 110px;/*限定一行的长度，太长换行*/
+    padding-left: 27px;/*使文字在图片在同一垂线上*/
+    margin: 5px 0px;
+}
+.body .body-center .body-center-books-box .books-title{
+    height: 40px;/*最多两行，同一标准高度*/
+    overflow: hidden;
+}
+.body .body-center .body-center-books-box .books-title a{
+    color: black;
+    font-size: 13px;
+}
+.body .body-center .body-center-books-box .books-title a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.body .body-center .body-center-books-box .book-writer{
+    color: #bbb;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+.body .body-center .body-center-books-box .book-price{
+    font-size: 13px;
+    font-weight: 900;
+    color: orangered;
+    height: 40px;/*最多两行，同一标准高度*/
+}
+.body .body-center .body-center-books-box .book-price del{
+    color: #bbb;
+}
+
+/*右边*/
+.body .body-right{
+    width: 250px;
+}
+.body .body-right .body-right-div{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+.body .body-right .body-right-div h3{
+    margin: 5px;
+    color: saddlebrown;
+    font-weight: 900;
+}
+.body .body-right .body-right-div a{
+    font-size: 12px;
+    color: black;
+}
+.body .body-right .body-right-div a:hover{
+    text-decoration: underline;
+}
+.body .body-right .body-right-div .right-book-price{
+    color: orangered;
+    font-weight: 900;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.body .body-right .body-right-div del{
+    color: #bbb;
+    font-weight: 900;
+    font-size: 14px;
+}
+.body .body-right .body-right-div .body-right-div-3-img img{
+    width: 230px;
+    margin: 5px auto;
+}

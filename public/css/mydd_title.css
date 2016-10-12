@@ -1,0 +1,16 @@
+/* Code tidied up by ScrapBook */
+.mdtitle { width: 960px; margin: auto; height: 31px; padding-top: 13px; background: rgb(255, 255, 255) url("../images/jianbian1.gif") repeat-x scroll center top; border-left: 1px solid rgb(255, 255, 255); border-right: 1px solid rgb(255, 255, 255); }
+.mdtitle_navi { float: right; margin-top: 0px; width: 550px; }
+.mdtitle_ul { list-style: outside none none; height: 24px; text-align: right; float: right; }
+.mdtitle_ul li { display: block; width: 109px; height: 24px; float: left; margin-left: 2px; text-align: center; margin-bottom: 2px; }
+.mdtitle_ul li a { display: block; width: 109px; height: 18px; padding-top: 5px; color: rgb(0, 73, 0); text-decoration: none; background: transparent url("../images/button_95.gif") no-repeat scroll 0% 0%; }
+.mdtitle_ul li a:hover { display: block; width: 109px; height: 18px; padding-top: 5px; color: rgb(0, 60, 28); text-decoration: underline; background: transparent url("../images/button_over_95.gif") no-repeat scroll 0% 0%; }
+.mdtitle_ul .li_now { width: 109px; height: 18px; padding-top: 5px; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; background: transparent url("../images/button_over_951.gif") no-repeat scroll 0% 0%; }
+.mdtitle_ul .li_w { width: 79px; }
+.mdtitle_ul .li_w a { display: block; width: 79px; height: 18px; padding-top: 5px; color: rgb(0, 106, 0); text-decoration: none; background: transparent url("../images/button_79.gif") no-repeat scroll 0% 0%; }
+.mdtitle_ul .li_w a:hover { display: block; width: 79px; height: 18px; padding-top: 5px; color: rgb(0, 73, 0); text-decoration: underline; background: transparent url("../images/button_over_79.gif") no-repeat scroll 0% 0%; }
+.mdtitle_ul .li_w_now { width: 79px; height: 18px; padding-top: 5px; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; background: transparent url("../images/button_over_791.gif") no-repeat scroll 0% 0%; }
+.mdtitle_cont { width: 950px; height: 25px; padding-top: 3px; }
+.mdtitle_img { float: left; width: 71px; height: 19px; margin-left: 20px ! important; margin-top: 2px; }
+.mdtitle_lasttime { margin-top: 7px; padding-left: 12px; float: left; }
+.mdtitle_shadow { width: 960px; height: 2px; overflow: hidden; background: transparent url("../images/titlebgshadow.gif") repeat-x scroll center top; }

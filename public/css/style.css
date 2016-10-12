@@ -1,0 +1,117 @@
+/* Code tidied up by ScrapBook */
+.c_red { color: rgb(255, 40, 50); }
+.my_title { height: 48px; line-height: 48px; background: rgb(250, 250, 250) none repeat scroll 0% 0%; border: 1px solid rgb(220, 220, 220); overflow: hidden; }
+.my_title .title { margin: 15px 0px 15px 10px; padding: 0px 0px 0px 10px; font-size: 16px; color: rgb(50, 50, 50); line-height: 18px; border-left: 2px solid rgb(255, 40, 50); }
+.my_title a.title:hover { color: red; text-decoration: none; }
+.my_title em { color: rgb(255, 40, 50); padding: 0px 8px; font-style: normal; }
+.security { border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(220, 220, 220) rgb(220, 220, 220); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 30px 45px; margin-bottom: 35px; }
+.step { text-align: center; margin-bottom: 25px; }
+.step li { width: 120px; display: inline-block; height: 48px; color: rgb(220, 220, 220); line-height: 24px; }
+.step li .line { display: block; color: rgb(255, 255, 255); background: transparent url("../images/step_bg.png") no-repeat scroll -120px 0px; width: 120px; height: 24px; }
+.step li.green { color: rgb(102, 198, 127); }
+.step li.green .line { background-position: 0px 0px; }
+.security .tip { text-align: center; color: rgb(255, 114, 0); }
+.security .list li { padding: 14px 0px; line-height: 36px; height: 38px; position: relative; }
+.security .list .name { width: 325px; text-align: right; margin-right: 10px; font-size: 14px; float: left; line-height: 38px; }
+.security .list input { width: 90px; font: 12px/36px "Microsoft Yahei"; color: rgb(150, 150, 150); padding: 0px 0px 0px 10px; border: 1px solid rgb(210, 210, 210); height: 36px; margin-right: 18px; display: inline-block; vertical-align: middle; }
+.security .list input.active { border-color: rgb(150, 150, 150); }
+.security .list input.long { width: 224px; }
+.security .list input.w_red { border-color: rgb(255, 40, 50); color: rgb(255, 40, 50); background-color: rgb(253, 240, 239); }
+.security .list .code { display: inline-block; width: 85px; height: 38px; margin-right: 8px; vertical-align: middle; }
+.security .list .btn_check, .security .list .btn_uncheck { display: inline-block; height: 36px; color: rgb(100, 100, 100); background-color: rgb(246, 246, 246); border: 1px solid rgb(210, 210, 210); width: 114px; text-align: center; vertical-align: middle; }
+.security .list .btn_uncheck { background-color: rgb(251, 251, 251); cursor: text; }
+.security .list .btn_check:hover { background-color: rgb(251, 251, 251); }
+.security .list a.btn_red { background-color: rgb(255, 40, 50); display: inline-block; width: 86px; height: 30px; line-height: 30px; text-align: center; color: rgb(255, 255, 255); }
+.security .list a.btn_red:hover { background-color: rgb(240, 25, 35); }
+.security .list a.unable, .security .list a.unable:hover { cursor: default; background-color: rgb(204, 204, 204); }
+.security .list .drop { position: relative; border: 1px solid rgb(210, 210, 210); float: left; height: 36px; width: 234px; z-index: 99; }
+.security .list .drop .drop_con { display: block; padding: 0px 10px 0px 12px; width: 212px; height: 36px; }
+.security .list .drop .drop_con a { float: right; display: block; width: 14px; height: 14px; background: transparent url("../images/icon.png") no-repeat scroll 4px -65px; margin-top: 12px; }
+.security .list .drop .drop_con a.down { background-position: -8px -65px; }
+.security .list .drop dl { width: 234px; border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(210, 210, 210) rgb(210, 210, 210); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; position: absolute; top: 36px; left: -1px; background-color: rgb(255, 255, 255); z-index: 9; }
+.security .list .drop dl dd { padding-left: 12px; cursor: pointer; }
+.security .list .drop dl dd:hover { background-color: rgb(245, 245, 245); }
+.security .p_con { padding: 100px 0px 100px 310px; line-height: 24px; }
+.security a.more { color: rgb(26, 102, 179); }
+.security a.more:hover { text-decoration: underline; }
+.security .list li .ltip { position: absolute; left: 335px; top: 46px; color: rgb(150, 150, 150); }
+.security .list li .ltip.wrong { padding-left: 10px; color: rgb(255, 40, 50); }
+.security .list li .ltip.caps { border: 1px solid rgb(252, 217, 176); line-height: 18px; background-color: rgb(255, 240, 207); color: rgb(255, 132, 0); width: 234px; top: 56px; }
+.security .list li .ltip .icon_t { width: 18px; height: 18px; float: left; margin-right: 4px; background: transparent url("../images/icon.png") no-repeat scroll 4px -113px; }
+.security .list .msg_level { display: inline-block; margin: 0px 8px 0px 0px; overflow: hidden; width: 70px; }
+.security .list .msg_level span { background-color: rgb(214, 214, 214); display: inline-block; height: 10px; margin-left: 1px; width: 22px; }
+.security .list .msg_level .s1 { background-color: rgb(255, 54, 0); border-radius: 2px 0px 0px 2px; }
+.security .list .msg_level .s2 { background-color: rgb(255, 192, 0); }
+.security .list .msg_level .s3 { background-color: rgb(113, 179, 0); border-radius: 0px 2px 2px 0px; }
+.security .list .icon { display: inline-block; width: 16px; height: 38px; background: transparent url("../images/icon.png") no-repeat scroll 0px -74px; vertical-align: middle; }
+.security .list .icon { display: none; }
+.security .list .icon.wrong { background-position: -26px -74px; }
+.security .list .icon.code_w { position: absolute; left: 415px; top: 16px; }
+.security .intro { border-top: 1px solid rgb(237, 237, 237); line-height: 26px; padding: 20px 0px 0px; margin-top: 20px; color: rgb(136, 136, 136); }
+.security .intro h3 { font-weight: bold; color: rgb(124, 124, 124); }
+.manual_service { border: 1px solid rgb(220, 220, 220); padding: 30px 15px 45px 20px; }
+.manual_service .intro { background: transparent url("../images/icon.png") no-repeat scroll 0px 2px; line-height: 21px; padding: 0px 0px 0px 45px; height: 40px; overflow: hidden; margin-top: 30px; }
+.manual_service a { float: right; color: rgb(26, 102, 179); line-height: 26px; }
+.manual_service a:hover { text-decoration: underline; }
+.manual_service a.btn_manual { border: 1px solid rgb(220, 220, 220); background: rgb(247, 247, 247) url("../images/icon.png") no-repeat scroll 5px -37px; height: 26px; width: 90px; margin-right: 8px; padding-left: 20px; color: rgb(100, 100, 100); }
+.manual_service a.btn_manual:hover { background-color: rgb(234, 234, 234); text-decoration: none; }
+.shadow_box { background-color: rgb(235, 238, 239); width: 950px; position: relative; margin: 40px auto; }
+.register_box { background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: relative; top: -10px; right: -10px; width: 950px; font-family: "Microsoft YaHei"; box-shadow: -1px 1px 1px rgb(232, 235, 236); padding-bottom: 70px; }
+.register_box .head { height: 74px; border-bottom: 1px solid rgb(236, 238, 242); padding-right: 15px; margin: 0px 10px; }
+.register_box .head .logo { float: left; padding-left: 10px; margin-top: 20px; }
+.register_box .head h3 { font-size: 16px; line-height: 18px; padding-left: 13px; float: left; margin-top: 42px; }
+.register_box .head .more, .register_box .head .dd_more { float: right; color: rgb(100, 100, 100); line-height: 22px; margin-top: 40px; }
+.register_box .head .more a { background-color: rgb(154, 159, 166); color: rgb(255, 255, 255); width: 44px; height: 22px; text-align: center; margin-left: 9px; display: inline-block; border-radius: 2px; }
+.register_box .head .more a:hover { background-color: rgb(142, 150, 160); text-decoration: none; }
+.register_box .head .dd_more a { color: rgb(100, 100, 100); }
+.register_box .head .dd_more a.home { padding-left: 16px; margin-right: 15px; background: transparent url("../images/icon.png") no-repeat scroll 0px 2px; }
+.register_box .head .dd_more a:hover { color: rgb(255, 60, 0); text-decoration: none; }
+.register_box .security { border: 0px none; }
+.register_box .manual_service { width: 850px; margin-left: 30px; }
+.security_content_index { border: 1px solid rgb(238, 238, 238); margin: 10px 0px 30px; padding: 0px 10px; line-height: 14px; }
+.security_content_index p { border-bottom: 1px solid rgb(238, 238, 238); height: 83px; position: relative; }
+.security_content_index p * { float: left; }
+.security_content_index p i { width: 36px; height: 36px; overflow: hidden; display: inline; margin: 25px 20px 0px 32px; }
+.security_content_index p i.success { background: transparent url("../images/security_sprite131104.png") no-repeat scroll 0px -230px; }
+.security_content_index p i.failure { background: transparent url("../images/security_sprite131104.png") no-repeat scroll 0px -270px; }
+.security_content_index p span { margin: 38px 0px 0px; }
+.security_content_index p span.red { color: rgb(255, 40, 50); }
+.security_content_index p span.title { margin: 36px 40px 0px 0px; font-size: 14px; font-weight: bold; }
+.security_content_index p a, .security_content_index p a:hover { margin: 38px 65px 0px 0px; float: right; display: inline; color: rgb(26, 102, 179); }
+.security_content_index .clear { background: rgb(255, 255, 255) none repeat scroll 0% 0%; height: 1px; margin-top: -1px; }
+.security_content_index p a.forget { color: rgb(170, 170, 170); position: absolute; right: -18px; top: 16px; }
+.security_content_index ul li { position: relative; width: 840px; padding: 17px 0px 0px 103px; }
+.security_content_index ul span { display: inline-block; vertical-align: middle; }
+.security_content_index ul .col1 { font-size: 14px; padding-left: 15px; }
+.security_content_index ul .col1 span { color: rgb(255, 40, 50); }
+.security_content_index ul .col2 { height: 21px; width: 161px; background: transparent url("../images/icon_safety.png") no-repeat scroll 0px 0px; overflow: hidden; }
+.security_content_index ul .col3 { display: block; color: rgb(150, 150, 150); padding-top: 7px; }
+.security_content_index ul .level2 .col2 { background-position: 0px -21px; }
+.security_content_index ul .level3 .col1 span { color: rgb(102, 198, 127); }
+.security_bar { background: rgb(250, 250, 250) none repeat scroll 0% 0%; border-color: rgb(221, 221, 221); margin: 15px 0px 0px; height: 76px; }
+.security_content_index ul .icon { width: 41px; height: 53px; position: absolute; left: 28px; top: 12px; background: transparent url("../images/security_sprite131104.png") no-repeat scroll 0px -140px; }
+.security_content_index ul .level2 .icon { background-position: 0px -70px; }
+.security_content_index ul .level3 .icon { background-position: 0px 0px; }
+.security_content_index ul .history { line-height: 22px; color: rgb(170, 170, 170); position: absolute; text-align: right; width: 250px; right: 0px; top: 19px; }
+.security_content_index ul .history span { display: block; }
+.security_content_index ul .history span.red { color: rgb(255, 40, 50); position: relative; }
+.security_content_index ul .history span.red em { display: block; background-color: rgb(255, 40, 50); color: rgb(255, 255, 255); position: absolute; right: -20px; top: 2px; height: 12px; line-height: 12px; padding: 3px; border-radius: 5px; font-style: normal; font-family: "sinsum"; }
+.security_content_index ul .history a { color: rgb(26, 102, 179); }
+.security_content_index ul .level3 .col2 { background-position: 0px -42px; }
+.security_content_index ul li.level3 { padding-top: 28px; }
+.security_modify_border .msg_level span { float: none; }
+.security_content_index .msg_level { display: inline-block; overflow: hidden; width: 200px; vertical-align: middle; margin: 2px 0px 0px 8px; font-size: 12px; color: rgb(135, 135, 135); }
+.security_content_index .msg_level span { color: rgb(255, 255, 255); display: inline-block; height: 13px; line-height: 13px; margin-left: 1px; text-align: center; overflow: hidden; background-image: url("security_bg02_131104.png"); background-repeat: no-repeat; }
+.security_content_index .msg_level .s1 { background-position: 0px -94px; width: 51px; }
+.security_content_index .msg_level .s2 { background-position: 0px -81px; width: 84px; }
+.security_content_index .msg_level .s3 { background-position: 0px -68px; width: 126px; }
+.my_title.index_t { border-style: solid; border-color: rgb(220, 220, 220); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 0px 2px; height: 33px; padding-top: 15px; }
+.my_title .in_tip { line-height: 18px; color: rgb(255, 40, 50); margin-left: 30px; padding-left: 20px; background: transparent url("../images/icon.png") no-repeat scroll -22px -114px; }
+.question { border: 1px solid rgb(238, 238, 238); padding: 15px 20px; line-height: 24px; height: 100px; margin: 0px 0px 35px; }
+.question dt { font-size: 14px; }
+.question dd { width: 430px; float: left; padding-left: 8px; }
+.question dd a { color: rgb(26, 102, 179); }
+.warning { border: 1px solid rgb(238, 238, 238); padding: 15px 20px; line-height: 24px; height: 100px; margin: 0px 0px 35px; }
+.warning dt { font-family: "Microsoft Yahei"; font-size: 14px; font-weight: bold; color: rgb(255, 40, 50); }
+.warning dd { padding-left: 8px; }
+.warning dd a { color: rgb(26, 102, 179); }

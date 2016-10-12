@@ -1,0 +1,36 @@
+/* Code tidied up by ScrapBook */
+.mdlnavi { width: 164px; float: left; background: rgb(226, 226, 226) none repeat scroll 0% 0%; padding: 9px 3px 3px; border-right: 1px solid rgb(204, 204, 204); }
+.left_xf { border-width: 1px 1px 2px; border-style: solid; border-color: rgb(0, 128, 0) rgb(0, 128, 0) rgb(0, 149, 0); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(255, 255, 255); margin-bottom: 2px; }
+.left_dd { border-width: 1px; border-style: solid; border-color: rgb(0, 128, 0) rgb(0, 128, 0) rgb(0, 149, 0); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(255, 255, 255); margin-bottom: 2px; }
+.left_dd .title { background-color: rgb(242, 253, 242); border-bottom: 1px solid rgb(189, 255, 189); height: 25px; padding-left: 17px; line-height: 25px; color: rgb(0, 123, 0); font-weight: bold; }
+.left_dd ul { list-style: outside none none; margin: 4px 15px; line-height: 26px; }
+.left_dd ul li { list-style: outside none none; border-bottom: 1px solid rgb(211, 211, 211); color: rgb(102, 102, 102); }
+.left_dd ul .lilast { list-style: outside none none; color: rgb(102, 102, 102); border-bottom: 1px solid rgb(255, 255, 255); }
+.left_dd ul .linow { list-style: outside none none; border-bottom: 1px solid rgb(211, 211, 211); color: rgb(255, 153, 0); background: transparent url("../images/point.gif") no-repeat scroll 3px 8px; }
+.left_dd ul .lilast_now { list-style: outside none none; color: rgb(255, 153, 0); background: transparent url("point.gif") no-repeat scroll 3px 8px; border-bottom: 1px solid rgb(255, 255, 255); }
+.left_dd ul li a, .left_dd ul .lilast a { color: rgb(102, 102, 102); text-decoration: none; padding-left: 15px; }
+.left_dd ul li a:hover, .left_dd ul .lilast a:hover { color: rgb(64, 64, 64); text-decoration: underline; background: transparent url("../images/point.gif") no-repeat scroll 3px 2px; padding-left: 15px; }
+.left_dd ul .linow a { color: rgb(204, 51, 0); text-decoration: none; }
+.left_dd ul .linow a:hover { color: rgb(204, 51, 0); text-decoration: underline; }
+.left_dd ul .lilast_now a { color: rgb(204, 51, 0); text-decoration: none; }
+.left_dd ul .lilast_now a:hover { color: rgb(204, 51, 0); text-decoration: underline; }
+.left_dd ul .li_up {  }
+.left_xf .title { background-color: rgb(242, 253, 242); height: 25px; line-height: 25px; font-weight: bold; }
+.left_xf .title a { padding-left: 17px; text-decoration: none; color: rgb(0, 123, 0); }
+.left_xf .title a:hover { padding-left: 17px; background: transparent url("../images/point.gif") no-repeat scroll 8px 3px; color: rgb(0, 123, 0); text-decoration: underline; }
+.left_xf2 { border-width: 1px; border-style: solid; border-color: rgb(0, 128, 0) rgb(0, 128, 0) rgb(0, 149, 0); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(255, 255, 255); margin-bottom: 2px; }
+.left_xf2 .title2 { background-color: rgb(204, 244, 204); height: 25px; line-height: 25px; font-weight: bold; }
+.left_xf2 .title2 a { padding-left: 17px; text-decoration: none; color: rgb(0, 123, 0); background: transparent url("../images/point.gif") no-repeat scroll 8px 3px; }
+.left_xf2 .title2 a:hover { padding-left: 17px; background: transparent url("../images/point.gif") no-repeat scroll 8px 3px; color: rgb(0, 123, 0); text-decoration: underline; }
+.doc_left_gr { border: 1px solid rgb(255, 255, 255); background: rgb(199, 233, 173) none repeat scroll 0% 0%; padding-top: 7px; padding-left: 7px; line-height: 18px; margin-bottom: 3px; padding-bottom: 7px; }
+.doc_left_gr .left_gr_pic { width: 39px; height: 39px; background: transparent url("../images/wddd_pic_haed_bg.gif") repeat scroll 0% 0%; float: left; }
+.doc_left_gr .left_gr_pic img { margin-left: 2px; margin-top: 2px; }
+.doc_left_gr .left_gr_text { width: 100px; float: left; margin-left: 10px; }
+.doc_left_gr .arrow_manage { margin: 0px 0px 2px 3px; }
+.doc_left_gr .my_nickname { line-height: 16px; width: 100px; word-break: break-all; }
+.doc_left_gr .my_position { background: transparent url("../images/dashed1.gif") repeat-x scroll center bottom; color: rgb(135, 135, 135); padding-bottom: 5px; }
+.doc_left_gr .my_message { padding: 2px 0px; color: rgb(102, 102, 102); }
+.doc_left_gr .my_message1 { background: transparent url("../images/dashed1.gif") repeat-x scroll center bottom; margin-bottom: 8px; color: rgb(102, 102, 102); line-height: 16px; padding: 4px 0px; }
+.doc_left_gr a.my_index { display: block; width: 94px; height: 17px; overflow: hidden; background: transparent url("../images/butt_my.gif") repeat scroll 0% 0%; }
+.doc_left_gr a.my_index:hover { background: transparent url("../images/butt_my_o.gif") repeat scroll 0% 0%; }
+.clear { clear: both; height: 0px; line-height: 0px; font-size: 0px; }

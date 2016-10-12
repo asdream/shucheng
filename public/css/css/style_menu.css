@@ -1,0 +1,157 @@
+/*基础设置*/
+*{/*容器默认都有内外边距！*/
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: #666;
+    background-color: white;
+}
+.container{
+    width: 1270px;
+    margin: 0px auto;
+    padding: 0px;
+    /*position: relative;/!*这句话不能有！为什么！*!/*/
+    z-index: 1;/*最底层。凡是弹出的窗口的深度都比1大*/
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/*样式设置*/
+.menu{
+    width: 100%;
+    min-height: 30px;/*一定要有*/
+    padding: 0px;
+    background-color: #efefef;
+    border-bottom: 1px solid gainsboro;
+    font-size: 12px;
+}
+
+/*登陆部分*/
+.menu .container .login{
+    float: left;
+    padding: 8px;
+}
+.menu .container .login span a.a1{
+    position: relative;
+    color: red;
+}
+.menu .menu-container .login span a:hover{
+    color: red;
+}
+
+/*右边部分*/
+.menu .container .right-menu{
+    float: right;
+    width: 650px;
+}
+.menu .container .right-menu  li{
+    float: left;
+    display: block;
+    padding: 8px;
+    padding-left: 13px;
+    padding-bottom: 10px;
+    position: relative;
+}
+/*鼠标放在菜单栏上面时*/
+.menu-li-style, .menu .container .right-menu .right-menu-ul2 li:hover, .right-menu-ul3 li:hover{
+    box-shadow: 1px -1px  5px rgba(87, 87, 87, 0.3);
+    color: red;
+    background-color: white;
+}
+
+/*设置ul2*/
+/*第一个弹出窗口*/
+.menu .container .right-menu .right-menu-ul2-li1-pop{
+    padding: 10px 22px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 1px  5px rgba(87, 87, 87, 0.3);
+
+    position: absolute;
+    z-index: 2;/*深度比congtainer的大*/
+}
+.menu .container .right-menu .right-menu-ul2-li1-pop .right-menu-ul2-li1-pop-left{
+    text-align: center;
+    margin-right: 15px;
+    position: relative;
+    float: left;
+}
+.menu .container .right-menu .right-menu-ul2-li1-pop .right-menu-ul2-li1-pop-right{
+    text-align: center;
+    position: relative;
+    float: left;
+}
+.menu .container .right-menu .right-menu-ul2-li1-pop .right-menu-ul2-li1-pop-box{/*遮挡物*/
+    width: 84px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: -5px;/*把li和弹出窗口相交部分遮挡住*/
+}
+
+/*第二个弹出窗口*/
+.menu .container .right-menu-ul2-li2-pop{
+    width: 91px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-top: 0px;
+    overflow: hidden;/*超出隐藏*/
+
+    position: absolute;
+    z-index: 2;
+}
+
+/*弹出窗口公共部分*/
+.menu .container .pop-ul li{
+    width: 100%;
+    padding: 5px;
+}
+.menu .container .pop-ul li:hover{
+    background-color: #eee;
+    box-shadow: none;
+}
+.menu .container .pop-ul li a:hover{
+    color: #666;
+}
+
+/*设置ul3*/
+.menu .container .right-menu .right-menu-ul3-li1{
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.menu .container .right-menu .right-menu-ul3-li2{
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+/*第一个弹出窗口*/
+.menu .container .right-menu .right-menu-ul3-li1-pop{
+    width: 78px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-top: 0px;
+    overflow: hidden;/*超出隐藏*/
+
+    position: absolute;
+    z-index: 2;
+}
+
+/*第二个弹出窗口*/
+.menu .container .right-menu .right-menu-ul3-li2-pop{
+    width: 78px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-top: 0px;
+    overflow: hidden;/*超出隐藏*/
+
+    position: absolute;
+    z-index: 2;
+}

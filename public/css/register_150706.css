@@ -1,0 +1,139 @@
+/* Code tidied up by ScrapBook */
+html { font-size: 12px; color: rgb(64, 64, 64); font-family: "Microsoft YaHei"; background-color: rgb(246, 249, 251); }
+body, button, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img, iframe, form, input { margin: 0px; padding: 0px; list-style-type: none; border: 0px none; }
+#bd { margin: 0px auto; width: 960px; padding-top: 40px; }
+.body::after { content: "."; display: block; clear: both; height: 0px; visibility: hidden; }
+.body {  }
+a { color: rgb(26, 102, 179); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.btn_go_buy { display: inline-block; height: 22px; line-height: 22px; padding: 0px 7px; margin: -3px 16px 0px; vertical-align: middle; color: rgb(102, 102, 102); background-position: 0px -238px; }
+.btn_back_safe { display: inline-block; height: 22px; line-height: 22px; padding: 0px 7px; margin: -3px 16px 0px; vertical-align: middle; color: rgb(102, 102, 102); background-position: 0px -315px; }
+.btn_go_buy:hover { color: rgb(26, 102, 179); text-decoration: none; background-position: -81px -238px; }
+.btn_back_safe:hover { color: rgb(26, 102, 179); text-decoration: none; }
+.register_box .c_9c { color: rgb(156, 156, 156); }
+.register_box .c_9c:hover { color: rgb(26, 102, 179); }
+.shadow_box { background-color: rgb(235, 238, 239); width: 950px; margin-bottom: 40px; position: relative; }
+.register_box { background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: relative; top: -10px; right: -10px; width: 950px; font-family: "Microsoft YaHei"; box-shadow: -1px 1px 1px rgb(232, 235, 236); }
+.register_box .head { height: 74px; border-bottom: 1px solid rgb(236, 238, 242); padding-right: 15px; margin: 0px 10px; }
+.register_box .head .logo { float: left; padding-left: 10px; margin-top: 20px; }
+.register_box .head h3 { font-size: 16px; line-height: 18px; padding-left: 13px; float: left; margin-top: 42px; }
+.register_box .head .more, .register_box .head .dd_more { float: right; color: rgb(100, 100, 100); line-height: 22px; margin-top: 40px; }
+.register_box .head .more a { background-color: rgb(154, 159, 166); color: rgb(255, 255, 255); width: 44px; height: 22px; text-align: center; margin-left: 9px; display: inline-block; border-radius: 2px; }
+.register_box .head .more a:hover { background-color: rgb(142, 150, 160); text-decoration: none; }
+.register_box .head .dd_more a { color: rgb(100, 100, 100); }
+.register_box .head .dd_more a.home { padding-left: 16px; margin-right: 15px; background: transparent url("icon_20150706.png") no-repeat scroll 0px 2px; }
+.register_box .head .dd_more a:hover { color: rgb(255, 60, 0); text-decoration: none; }
+.head_a:hover { text-decoration: none; }
+.head_a { width: 135px; height: 46px; background-color: rgb(245, 245, 245); display: inline-block; position: relative; left: 20px; border: 1px solid rgb(236, 238, 242); top: 27px; font-size: 16px; line-height: 42px; text-align: center; color: rgb(70, 70, 70); margin-left: 6px; }
+.head_a1 { background-color: white; }
+.register_box .head_a1 { background-color: white; top: 28px; border-bottom: medium none; }
+.register_box .body { padding: 45px 0px 25px; position: relative; }
+.register_box table td { padding: 0px 0px 30px; position: relative; }
+.register_box .z_index2 { z-index: 2; }
+.register_box table { color: rgb(158, 158, 158); }
+.register_box table .t { font-size: 14px; width: 338px; padding-right: 10px; text-align: right; vertical-align: top; color: rgb(100, 100, 100); padding-top: 8px; font-family: "Microsoft YaHei"; }
+.register_box .text { border: 1px solid rgb(230, 230, 230); font-family: "Microsoft YaHei"; height: 18px; float: left; width: 290px; margin-right: 10px; padding: 9px 10px; line-height: 18px; outline: 0px none; border-radius: 2px; color: rgb(51, 51, 51); }
+.register_box .code_pic { margin-right: 3px; float: left; }
+.register_box .code_picww { line-height: 38px; }
+.register_box .text.pin { width: 160px; margin-right: 5px; }
+.register_box .get_pin { width: 124px; text-align: center; border: 1px solid rgb(230, 230, 230); background-color: rgb(241, 241, 241); color: rgb(115, 115, 115); float: left; display: block; line-height: 36px; height: 36px; margin-right: 10px; }
+.register_box .get_pin:hover { background-color: rgb(235, 235, 235); text-decoration: none; }
+.register_box .cue, .register_box .prompt { color: rgb(240, 0, 0); display: block; line-height: 14px; padding: 0px 4px; margin-right: 5px; position: absolute; left: 8px; bottom: 8px; }
+.register_box .cue .icon, .register_box .prompt .icon { display: inline-block; width: 15px; height: 15px; background-position: -215px -208px; float: left; margin: 2px 4px 0px 0px; }
+.register_box .cue .show_pass { display: inline-block; color: rgb(102, 102, 102); height: 18px; line-height: 18px; background: transparent url("register_btn.png") no-repeat scroll 0px bottom; width: 57px; text-align: center; margin-left: 6px; margin-right: 3px; }
+.register_box .cue .show_pass:hover { background-position: -82px bottom; color: rgb(26, 102, 179); text-decoration: none; }
+.register_box .prompt { border: 1px solid rgb(252, 217, 176); line-height: 18px; background-color: rgb(255, 240, 207); color: rgb(255, 132, 0); left: 0px; width: 302px; }
+.register_box .prompt .icon { background: transparent url("icon_20150706.png") no-repeat scroll 0px -60px; }
+.register_box .icon_yes, .register_box .icon_wrong { display: inline-block; margin-top: 14px; width: 16px; height: 16px; background: transparent url("icon_20150706.png") no-repeat scroll 0px -40px; }
+.register_box .icon_wrong { background-position: 0px -20px; }
+.register_box .icon_yes.pin_i, .register_box .icon_wrong.pin_i { position: absolute; left: 160px; top: 0px; }
+.register_box .little_cue { float: none; height: 23px; line-height: 23px; }
+.register_box .little_cue .icon { margin: 3px 4px 0px 0px; }
+.register_box .warn { color: rgb(120, 120, 120); }
+.register_box .v { border: 1px solid rgb(226, 226, 226); vertical-align: middle; margin-right: 10px; }
+.register_box .v_box { display: block; clear: both; padding-top: 10px; }
+.register_box .btn_login { display: inline-block; font-size: 20px; border: 0px none; width: 178px; height: 44px; line-height: 44px; cursor: pointer; text-align: center; background-color: rgb(255, 40, 50); color: rgb(255, 255, 255); border-radius: 22px; margin-left: 50px; }
+.register_box td .hover, .register_box .btn_login:hover, .register_box .login_eamil:hover { background-color: rgb(240, 25, 35); text-decoration: none; }
+.register_box .btn_login.unable, .register_box .btn_login.unable:hover { cursor: default; background-color: rgb(209, 209, 209); }
+.register_box .clause { padding: 4px 0px 35px; color: rgb(61, 61, 61); }
+.register_box .clause input { vertical-align: middle; margin: -4px 8px 0px 0px; }
+.register_box .d_text { display: inline-block; width: 472px; line-height: 16px; }
+.register_box .clause .float_l { float: left; }
+.register_box .clause .cue { width: 280px; line-height: 24px; }
+.register_box .clause .cue .icon { margin-bottom: 20px; }
+.register_box .wrong { border-color: rgb(255, 70, 70); background-color: rgb(254, 240, 239); color: rgb(244, 101, 97); }
+.register_box .warn_p { line-height: 12px; display: block; position: absolute; top: 47px; left: 49px; }
+@-moz-document url-prefix("") {
+  .register_box .warn_p { top: 126px; left: 334px; }
+}
+.register_box .msg_level { display: inline-block; margin: 0px 8px 0px 0px; overflow: hidden; width: 70px; vertical-align: middle; position: relative; top: -1px; }
+.register_box .msg_level span { background-color: rgb(214, 214, 214); display: inline-block; height: 10px; margin-left: 1px; width: 22px; }
+.register_box .msg_level .s1 { background-color: rgb(255, 54, 0); border-radius: 2px 0px 0px 2px; }
+.register_box .msg_level .s2 { background-color: rgb(255, 192, 0); }
+.register_box .msg_level .s3 { background-color: rgb(113, 179, 0); border-radius: 0px 2px 2px 0px; }
+.email_select { border: 1px solid rgb(200, 200, 200); width: 236px; position: absolute; top: 44px; left: 0px; background-color: rgb(255, 255, 255); z-index: 2; }
+@-moz-document url-prefix("") {
+  .email_select { top: 69px; left: 285px; }
+}
+.email_select a { display: block; height: 24px; line-height: 24px; color: rgb(102, 102, 102); padding-left: 10px; }
+.email_select a:hover { background-color: rgb(240, 240, 240); text-decoration: none; }
+.success_box { padding: 35px 0px 150px; }
+.success_box .icon_yes_b { display: inline-block; vertical-align: middle; width: 28px; height: 28px; background: transparent url("icon_20150706.png") no-repeat scroll 0px -80px; margin: 0px 10px 0px 0px; }
+.success_box .text_box { clear: both; display: block; }
+.success_box p { text-align: center; line-height: 36px; }
+.success_box p .f16 { font-size: 16px; color: rgb(90, 90, 90); }
+.success_box .text_box { color: rgb(100, 100, 100); height: 36px; }
+.success_box .text_box2 { color: rgb(102, 102, 102); height: 24px; line-height: 24px; }
+.success_box .text_box b { font-size: 14px; color: rgb(64, 64, 64); font-family: Arial; }
+.success_box .text_box b.red { color: rgb(204, 51, 0); }
+.success_box p a.btn_go_buy, .success_box p a.btn_back_safe { margin-top: -9px; vertical-align: middle; display: inline-block; }
+.success_box .send_begin { font-weight: bold; color: rgb(120, 120, 120); margin-left: 10px; }
+.register_box .tools_box { border-top: 1px solid rgb(233, 233, 233); background: rgb(255, 254, 237) none repeat scroll 0% 0%; text-align: center; padding-bottom: 30px; color: rgb(102, 102, 102); position: absolute; bottom: 0px; left: 0px; width: 100%; }
+.register_box .tools_box p { padding: 24px 0px; }
+.register_box .icon { display: inline-block; width: 48px; height: 50px; vertical-align: middle; margin-right: 11px; }
+.register_box .btn_link { display: inline-block; width: 124px; height: 36px; vertical-align: middle; margin-top: 4px; }
+.register_box .mail .icon { background-position: 0px -418px; }
+.register_box .mail .btn_link { background-position: 0px -129px; margin-right: 70px; width: 146px; }
+.register_box .mail .btn_link:hover { background-position: 0px -165px; }
+.register_box .phone .icon { background-position: -59px -418px; width: 25px; }
+.register_box .phone .btn_link { background-position: 0px -201px; margin-right: 70px; width: 146px; }
+.register_box .phone .btn_link:hover { background-position: 0px -237px; }
+.register_box .info .icon { background-position: -104px -418px; width: 32px; }
+.register_box .info .btn_link { background-position: 0px -309px; width: 160px; }
+.register_box .info .btn_link:hover { background-position: 0px -273px; }
+.register_box .login_eamil { display: inline-block; font-size: 22px; border: 0px none; width: 222px; height: 54px; line-height: 54px; cursor: pointer; text-align: center; background-color: rgb(255, 40, 50); color: rgb(255, 255, 255); border-radius: 27px; margin-top: 30px; }
+.register_box .check_eamil { display: inline-block; height: 28px; line-height: 28px; width: 76px; text-align: center; background-position: 0px -287px; position: relative; top: 10px; left: 20px; }
+.register_box .login_eamil:hover { background-position: -81px -210px; }
+.register_box .check_eamil:hover { background-position: -81px -287px; }
+.register_box .c_yellow { color: rgb(40, 40, 40); font-size: 16px; background-color: rgb(253, 245, 224); border: 1px solid rgb(253, 235, 193); padding: 0px 36px; line-height: 48px; display: inline-block; margin-top: 30px; }
+.register_box .c_yellow2 { color: rgb(250, 131, 26); font: bold 14px/36px "宋体"; }
+.register_box .c_yellow2 b { color: rgb(204, 51, 0); padding: 0px 3px; }
+.register_box .c_bold { color: rgb(63, 63, 63); height: 20px; font: bold 14px/20px "宋体"; }
+.register_box .c_link2 { font: 12px/20px "宋体"; height: 20px; }
+.register_box .c_link1 { font: 12px/36px "宋体"; margin-left: 12px; }
+.register_box .ml274 { margin-left: 274px; }
+.register_box .ml603 { margin-left: 603px; }
+.register_box .line { height: 1px; font-size: 0px; overflow: hidden; background: rgb(233, 233, 233) none repeat scroll 0% 0%; width: 705px; margin: 7px 122px 12px 148px; }
+.register_box .ml30 { margin-left: 30px; }
+.register_box .ml20 { margin-left: -20px; }
+.btn_time { height: 19px; line-height: 19px; border: 1px solid rgb(195, 195, 195); background: rgb(238, 238, 238) none repeat scroll 0% 0%; color: rgb(158, 158, 158); padding: 0px 10px; border-radius: 3px; margin-right: 10px; display: inline-block; }
+.mask { width: 100%; position: absolute; top: 0px; left: 0px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; opacity: 0.6; height: 100%; z-index: 1000; }
+.register_box .c_yellow3 { font-size: 12px; }
+.success_box .text_box2 b { color: rgb(204, 51, 0); }
+.register_box .success_table { width: 350px; padding: 0px; margin: 26px auto 0px; font-size: 16px; color: rgb(40, 40, 40); border-style: solid; border-color: rgb(253, 235, 193); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 1px 0px; line-height: 44px; }
+.register_box .success_table th { width: 108px; font-weight: normal; background-color: rgb(253, 245, 224); border-right: 1px solid rgb(253, 235, 193); border-bottom: 1px solid rgb(253, 235, 193); padding: 0px; margin: 0px; }
+.register_box .success_table td { padding: 0px 0px 0px 30px; margin: 0px; background-color: rgb(253, 245, 224); border-bottom: 1px solid rgb(253, 235, 193); }
+.register_box .book_code { position: absolute; right: 10px; bottom: 10px; color: rgb(100, 100, 100); text-align: center; line-height: 20px; }
+.new_tip { line-height: 24px; color: rgb(130, 130, 130); padding-left: 22px; background: rgb(254, 247, 245) url("new_tip.png") no-repeat scroll 3px 5px; width: 670px; border: 1px solid rgb(254, 219, 209); margin: -30px auto 30px; }
+.email_select { position: absolute; top: 37px; left: 0px; width: 290px; margin-right: 10px; padding: 9px 10px; border: 1px solid rgb(200, 200, 200); background-color: rgb(255, 255, 255); z-index: 2; overflow: hidden; }
+@-moz-document url-prefix("") {
+  .email_select { top: 39px; left: 0px; }
+}
+.email_select li { display: block; height: 24px; line-height: 24px; color: rgb(102, 102, 102); padding-left: 10px; font-size: 12px; font-family: "Microsoft YaHei"; overflow: hidden; }
+.email_select .hover_domain { background-color: rgb(240, 240, 240); text-decoration: none; cursor: pointer; }
+.email_change { padding-top: 22px; }
+.email_change .dd_bottom { margin-bottom: 10px; }
+.register_box .text:focus { color: rgb(80, 80, 80); border-color: rgb(150, 150, 150); }
+.register_box .get_pinUnClick:hover { text-decoration: none; background-color: rgb(241, 241, 241); cursor: text; }
+:-moz-placeholder { color: rgb(150, 150, 150) ! important; }
+*::-moz-placeholder { color: rgb(150, 150, 150) ! important; }

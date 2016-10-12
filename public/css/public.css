@@ -1,0 +1,52 @@
+/* Code tidied up by ScrapBook */
+html, body, div, span, applet, object, iframe, b h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-size: 100%; background: transparent none repeat scroll 0% 0%; list-style: outside none none; }
+body { font-family: "Microsoft Yahei","Hiragino Sans GB","Simsun","Arial"; font-size: 12px; color: rgb(100, 100, 100); line-height: 1; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+blockquote, q { quotes: none; }
+blockquote::before, blockquote::after, q::before, q::after { content: none; }
+.tc { text-align: center; }
+.tl { text-align: left; }
+.tr { text-align: right; }
+.fl { float: left; }
+.fr { float: right; }
+.dis { display: block; }
+.undis { display: none; }
+table { border-collapse: collapse; border-spacing: 0px; }
+a:link, a:visited { text-decoration: none; color: rgb(150, 150, 150); }
+a:hover { text-decoration: none; color: rgb(100, 100, 100); }
+input[type="text"]:focus { outline: medium none; }
+.clear { clear: both; }
+.clearfix { background: transparent none repeat scroll 0% 0%; font-size: 1px; line-height: 0; content: " "; height: 0px ! important; clear: both; display: block; visibility: hidden; }
+* html .clearfix { height: 1%; }
+.mydang { width: 1200px; margin: 15px auto; }
+.my_ad { margin-bottom: 15px; }
+.my_left { width: 200px; float: left; }
+.my_menu { background: transparent url("404.php") no-repeat scroll 0px 63px; }
+.my_menu .my_menu_title { height: 62px; line-height: 62px; margin-bottom: 6px; font-size: 16px; background: rgb(250, 250, 250) url("404_001.php") no-repeat scroll 42px 24px; border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(220, 220, 220) rgb(220, 220, 220) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding-left: 64px; font-weight: normal; }
+.my_menu .my_menu_title a { color: rgb(50, 50, 50); }
+.my_menu .my_menu_title a:hover { color: rgb(255, 40, 50); }
+.my_menu dl { border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(220, 220, 220) rgb(220, 220, 220); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; width: 148px; margin: 0px auto; padding: 16px 0px 0px 42px; }
+.my_menu dt { margin: 8px 0px; line-height: 18px; font-size: 16px; padding-left: 20px; background: transparent url("404_001.php") no-repeat scroll 0px -35px; }
+.my_menu dd { line-height: 32px; padding-left: 20px; font-size: 14px; }
+.my_menu dd a.on { color: rgb(255, 40, 50); }
+.my_main { width: 990px; padding: 0px 0px 0px 10px; float: left; }
+.my_ads { border: 1px solid rgb(220, 220, 220); margin-bottom: 15px; }
+.ads_tab { line-height: 42px; height: 44px; text-align: center; }
+.ads_tab li { width: 329px; float: left; }
+.tab_two li { width: 494px; }
+.ads_tab li a { color: rgb(50, 50, 50); padding: 0px 3px; font-size: 16px; height: 42px; display: inline-block; }
+.ads_tab li a.current, .ads_tab li a:hover { color: rgb(50, 50, 50); border-bottom: 2px solid rgb(255, 40, 50); }
+.show_list { position: relative; padding: 0px 19px; }
+.show_list .arrow { position: absolute; width: 34px; height: 70px; background-image: url("../images/icon.png"); top: 50%; margin-top: -35px; opacity: 0.8; }
+.show_list .arrow:hover { opacity: 1; }
+.show_list .left { left: 0px; background-position: 0px -112px; }
+.show_list .right { right: 0px; background-position: -34px -112px; }
+.show_list .unable, .show_list .unable:hover { opacity: 0.3; cursor: default; }
+.show_box li .gpic { display: inline-block; width: 150px; height: 150px; margin: 10px 0px; }
+.show_box li .sale { background-color: rgb(255, 40, 50); color: rgb(255, 255, 255); display: inline-block; padding: 0px 2px; margin: 0px 0px 0px 8px; }
+.my_ads .show_box { width: 950px; overflow: hidden; height: 245px; }
+.my_ads .show_box li { width: 170px; border: 0px none; height: 245px; padding: 0px 10px; text-align: center; float: left; color: rgb(50, 50, 50); line-height: 16px; }
+.my_ads .show_box li:hover { background-color: rgb(249, 249, 249); }
+.my_ads .show_box li a { color: rgb(50, 50, 50); }
+.my_ads .show_box li a:hover { color: rgb(255, 40, 50); }
+.my_ads .show_box li p { text-align: left; line-height: 14px; width: 170px; height: 28px; overflow: hidden; }
+.my_ads .show_box li p .price { font-size: 16px; color: rgb(255, 40, 50); line-height: 32px; }

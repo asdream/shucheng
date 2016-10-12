@@ -1,0 +1,40 @@
+/* Code tidied up by ScrapBook */
+.footer { border-top: 2px solid rgb(255, 40, 50); margin-top: 15px; background-color: rgb(255, 255, 255); clear: both; }
+.footer_pic_new { background-color: rgb(250, 250, 250); border-bottom: 1px solid rgb(235, 235, 235); width: 100%; min-width: 960px; }
+.footer_pic_new .footer_pic_new_inner { width: 940px; margin: 0px auto; height: 68px; padding: 5px 0px 5px 30px; }
+.footer_pic_new .footer_pic_new_inner a { display: block; height: 52px; width: 187px; float: left; padding: 7px 0px 7px 48px; }
+.footer_pic_new .footer_pic_new_inner a span { text-indent: -9999px; display: block; width: 138px; height: 52px; background: transparent url("../images/footer_bg.png") no-repeat scroll 0px 0px; font-size: 0px; line-height: 0; cursor: pointer; }
+.footer_pic_new .footer_pic_new_inner a.footer_pic01 { border-left-width: 0px; }
+.footer_pic_new .footer_pic_new_inner a.footer_pic02 span { background-position: 0px -51px; }
+.footer_pic_new .footer_pic_new_inner a.footer_pic03 span { background-position: 0px -103px; }
+.footer_pic_new .footer_pic_new_inner a.footer_pic04 span { background-position: 0px -156px; }
+.public_footer_new { width: 920px; height: 140px; margin: 0px auto; padding-top: 30px; }
+.public_footer_new .footer_sort { width: 154px; float: left; text-align: center; }
+.public_footer_new .footer_sort .f_title { display: block; padding-left: 30px; font-size: 14px; font-family: "microsoft yahei"; color: rgb(50, 50, 50); height: 36px; line-height: 36px; }
+.public_footer_new .footer_shangjia .f_title { background-position: 0px -200px; }
+.public_footer_new .footer_distribution .f_title { background-position: 0px -118px; }
+.public_footer_new .footer_pay .f_title { background-position: 0px -39px; }
+.public_footer_new .footer_characteristic .f_title { background-position: 0px -79px; }
+.public_footer_new .footer_help .f_title { background-position: 0px -158px; }
+.public_footer_new .footer_sort a { text-decoration: none; color: rgb(125, 125, 125); font-size: 12px; }
+.public_footer_new .footer_sort a:hover { text-decoration: underline; color: rgb(244, 77, 32); }
+.public_footer_new .footer_sort ul { padding-left: 30px; list-style: outside none none; margin: 0px; }
+.public_footer_new .footer_sort ul li { line-height: 20px; height: 20px; }
+.public_footer_new .footer_shangjia { width: 150px; }
+.footer_nav_box { border-top: 1px solid rgb(235, 235, 235); width: 100%; min-width: 960px; padding: 17px 0px 50px; }
+.footer_nav_box a, .footer_nav_box { color: rgb(140, 140, 140); font-size: 12px; text-decoration: none; }
+.footer_nav_box a:hover { color: rgb(244, 133, 112); text-decoration: underline; }
+.footer_nav_box .footer_nav { text-align: center; line-height: 20px; padding-bottom: 17px; }
+.footer_nav_box .footer_nav span.sep { margin: 0px 17px 0px 19px; }
+.footer_nav_box .footer_copyright { line-height: 20px; text-align: center; width: 960px; margin: 0px auto; }
+.footer_nav_box .footer_copyright span.sep { margin: 0px 17px 0px 19px; }
+.footer_nav_box .footer_icon { padding: 10px 0px 0px 340px; width: 640px; margin: 0px auto; height: 77px; }
+.footer_nav_box .validator, .footer_nav_box .knet { float: left; display: inline; padding: 15px 5px; width: 135px; height: 47px; }
+.footer_copyright { padding: 10px 0px 0px; margin: 0px auto; float: none; width: auto; text-align: center; color: rgb(140, 140, 140); }
+.footer_copyright span, .public_footer .footer_copyright a.footer_img { display: inline-block; float: none; }
+.footer_copyright a { padding: 0px 4px; color: rgb(140, 140, 140); font-size: 12px; text-decoration: none; }
+.footer_copyright a:hover { color: rgb(244, 133, 112); text-decoration: underline; }
+.footer_nav_box .footer_nav .footer_hot_search { display: inline-block; width: 50px; position: relative; }
+.footer_nav_box .footer_nav .pos_a_box { position: absolute; left: -251px; top: 22px; background-color: rgb(244, 133, 112); width: 300px; border-radius: 8px; text-align: center; height: 14px; line-height: 14px; }
+.footer_nav_box .footer_nav .pos_a_box a, .footer_nav_box .footer_nav .pos_a_box a:hover, .footer_nav_box .footer_nav .pos_a_box span { padding: 0px 2px; color: rgb(255, 255, 255); text-decoration: none; }
+.footer_nav_box .footer_nav .pos_a_box i { display: block; width: 0px; height: 0px; line-height: 0; font-size: 0px; border-width: 0px 4px 4px; border-style: solid; border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(244, 133, 112); position: absolute; right: 20px; top: -4px; }

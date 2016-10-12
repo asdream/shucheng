@@ -1,0 +1,64 @@
+/* Code tidied up by ScrapBook */
+.mdhead_mydd_head { width: 960px; padding: 0px 1px; margin: 0px auto; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.mdhead_mydd_head_body { border-width: 0px 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(135, 135, 135) rgb(135, 135, 135); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: rgb(199, 233, 173) none repeat scroll 0% 0%; height: 64px; }
+.mdhead_logo { padding-top: 12px; padding-left: 25px; width: 90px; float: left; }
+.mdhead_top_navi { float: left; margin: 34px 0px 0px 30px; line-height: 20px; }
+.mdhead_tag { float: left; }
+.mdhead_bookmusic { float: left; width: 115px; }
+.mdhead_bookmusic_tag { width: 93px; height: 21px; border: 1px solid rgb(189, 187, 181); background-color: rgb(254, 250, 240); float: left; padding-left: 15px; padding-top: 5px; }
+.mdhead_bookmusic_tag .div1 { width: 24px; float: left; }
+.mdhead_bookmusic_tag .div1 a { color: rgb(58, 123, 55); text-decoration: none; }
+.mdhead_bookmusic_tag .div1 a:hover { color: rgb(58, 123, 55); text-decoration: underline; }
+.mdhead_bookmusic_tag .div2 { color: rgb(102, 102, 102); float: left; }
+.mdhead_bookmusic_tag div img { padding-left: 2px; }
+.mdhead_rightshadow { height: 27px; margin-top: 1px; width: 1px; background-color: rgb(121, 119, 112); float: left; }
+.mdhead_bottomshadow { width: 110px; margin-left: 1px; height: 1px; background-color: rgb(121, 119, 112); font-size: 0px; overflow: hidden; }
+.mdhead_b2c { float: left; width: 467px; }
+.mdhead_b2c_tag { width: 445px; height: 21px; border: 1px solid rgb(189, 187, 181); background-color: rgb(254, 250, 240); float: left; padding-left: 15px; padding-top: 5px; color: rgb(194, 80, 42); }
+.mdhead_b2c_tag a { color: rgb(194, 80, 42); text-decoration: none; width: 65px ! important; }
+.mdhead_b2c_tag a:hover { color: rgb(194, 80, 42); text-decoration: underline; }
+.mdhead_b2c_tag div { float: left; }
+.mdhead_b2c_tag div img { padding-left: 2px; }
+.mdhead_b2cbottomshadow { width: 462px; margin-left: 1px; height: 1px; background-color: rgb(121, 119, 112); font-size: 0px; overflow: hidden; }
+.mdhead_tj { float: left; width: 69px; margin-right: 4px; }
+.mdhead_tj a { display: block; width: 63px; height: 23px; color: rgb(64, 64, 64); text-decoration: none; background: transparent url("../images/tag_tj.gif") no-repeat scroll 0% 0%; padding-left: 11px; padding-top: 6px; }
+.mdhead_tj a:hover { display: block; width: 63px; height: 23px; color: rgb(64, 64, 64); text-decoration: underline; background: transparent url("../images/tag_tj.gif") no-repeat scroll 0% 0%; padding-left: 11px; padding-top: 6px; }
+.mdhead_bang { float: left; width: 69px; margin-right: 6px; }
+.mdhead_bang a { display: block; width: 61px; height: 23px; color: rgb(64, 64, 64); text-decoration: none; background: transparent url("../images/tag_bang1.gif") no-repeat scroll 0% 0%; padding-left: 13px; padding-top: 6px; }
+.mdhead_bang a:hover { display: block; width: 61px; height: 23px; color: rgb(64, 64, 64); text-decoration: none; background: transparent url("../images/tag_bang2.gif") no-repeat scroll 0% 0%; padding-left: 13px; padding-top: 6px; }
+.mdhead_cx { float: left; width: 55px; margin-right: 4px; }
+.mdhead_cx a { display: block; width: 55px; height: 23px; color: rgb(64, 64, 64); text-decoration: none; background: transparent url("../images/tag_cx.gif") no-repeat scroll 0% 0%; padding-left: 15px; padding-top: 6px; }
+.mdhead_cx a:hover { display: block; width: 55px; height: 23px; color: rgb(64, 64, 64); text-decoration: underline; background: transparent url("../images/tag_cx.gif") no-repeat scroll 0% 0%; padding-left: 15px; padding-top: 6px; }
+.mdhead_welcome_notice { line-height: 20px; width: 937px; margin: auto; height: 25px; border-width: medium 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(167, 167, 167) rgb(167, 167, 167); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(254, 253, 248); padding: 0px 7px 0px 14px; }
+.mdhead_welcome_p { padding-top: 5px; color: rgb(64, 64, 64); }
+.mdhead_little_navi { float: right; padding-top: 3px; }
+.mdhead_little_navi .little_n { float: left; padding-top: 2px; margin-right: 8px; display: block; }
+.mdhead_little_navi input { width: 80px; height: 16px; padding: 2px 0px 0px 2px; color: rgb(161, 161, 161); float: left; background: transparent url("../images/topsearchbar.gif") repeat scroll 0% 0%; border: medium none; }
+.mdhead_little_navi .butt_search { float: left; }
+.mdhead_cart { background: transparent url("../images/CART_BG1.gif") no-repeat scroll 0% 0%; padding-left: 25px; height: 18px; float: right; margin-top: 5px; padding-right: 3px; }
+.mdhead_link_black a { color: rgb(64, 64, 64); text-decoration: none; }
+.mdhead_link_black a:hover { color: rgb(64, 64, 64); text-decoration: underline; }
+.mdhead_link_white a { color: rgb(255, 255, 255); text-decoration: none; }
+.mdhead_link_white a:hover { color: rgb(255, 255, 255); text-decoration: underline; }
+.mdhead_link_blue a { color: rgb(8, 6, 112); text-decoration: none; }
+.mdhead_link_blue a:hover { color: rgb(8, 6, 112); text-decoration: underline; }
+.mdhead_link_gray a { color: rgb(102, 102, 102); text-decoration: none; }
+.mdhead_link_gray a:hover { color: rgb(102, 102, 102); text-decoration: underline; }
+.mdhead_link_w a { color: rgb(255, 255, 255); text-decoration: none; }
+.mdhead_link_w a:hover { color: rgb(255, 255, 255); text-decoration: underline; }
+.mdhead_link_white_t a { color: rgb(255, 255, 255); text-decoration: none; }
+.mdhead_link_white_t a:hover { color: rgb(8, 6, 112); text-decoration: none; }
+.mdhead_back_window { width: 157px; height: 42px; background: transparent url("null.html") repeat scroll 0% 0%; line-height: 20px; padding: 5px 0px 0px 12px; }
+.mdhead_li5 { text-align: center; height: 19px; width: 100%; float: left; border-bottom: 1px solid rgb(255, 255, 255); padding-top: 3px; }
+.mdhead_li6 { background: rgb(161, 161, 161) none repeat scroll 0% 0%; height: 1px; font-size: 0px; overflow: hidden; width: 100%; float: left; }
+.mdhead_li7 { margin: auto; width: 85%; height: 25px; text-align: center; background: transparent url("null_002.html") repeat-x scroll center bottom; line-height: 25px; }
+.mdhead_ddbangxf { width: 75px; padding: 3px 5px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(135, 135, 135); }
+.mdhead_yxxf { width: 43px; padding: 3px 5px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(135, 135, 135); }
+.mdhead_flxf_left_wai { float: left; width: 60px; }
+.mdhead_flxf_left { width: 61px; height: 23px; border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(161, 161, 161) -moz-use-text-color rgb(161, 161, 161) rgb(161, 161, 161); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background-color: rgb(250, 250, 250); float: left; color: rgb(0, 0, 0); font-weight: bold; text-align: center; line-height: 23px; }
+.mdhead_flxf_left_wai .shadow { background: rgb(153, 153, 153) none repeat scroll 0% 0%; height: 26px; margin-left: 2px; width: 60px; font-size: 0px; }
+.mdhead_flxf_right_wai { float: left; width: 180px; }
+.mdhead_flxf_right { width: 160px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(161, 161, 161) rgb(161, 161, 161) rgb(161, 161, 161) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; float: left; padding: 0px 10px 10px 3px; background: rgb(250, 250, 250) url("null_001.html") no-repeat scroll left top; }
+.mdhead_flxf_right li { border-right: 1px solid rgb(161, 161, 161); padding: 0px 10px; float: left; height: 15px; line-height: 15px; margin-top: 5px; word-break: keep-all; display: inline; }
+.mdhead_flxf_right_wai .shadow { background: rgb(153, 153, 153) none repeat scroll 0% 0%; height: 2px; margin-left: 2px; width: 172px; font-size: 0px; }
+.back_window1 { width: 157px; height: 42px; background: transparent url("../images/back_window.gif") repeat scroll 0% 0%; line-height: 20px; padding: 5px 0px 0px 12px; }

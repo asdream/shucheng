@@ -1,0 +1,39 @@
+/* Code tidied up by ScrapBook */
+* { padding: 0px; margin: 0px; }
+body { font-family: "宋体",Arial,Helvetica,sans-serif; font-size: 12px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(64, 64, 64); }
+img { border: 0px none; }
+a { color: rgb(26, 102, 179); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.gray4012 a { color: rgb(64, 64, 64); text-decoration: none; }
+.gray4012 a:hover { color: rgb(64, 64, 64); text-decoration: underline; }
+.empty_box { clear: both; height: 0px; overflow: hidden; }
+.empty_box1 { clear: both; height: 0px; overflow: hidden; border-bottom: 1px solid rgb(184, 182, 182); }
+.empty_left { clear: left; }
+.empty_right { clear: right; }
+.size14 { font-size: 14px; }
+.gray87 { color: rgb(135, 135, 135); }
+.gray666 { color: rgb(102, 102, 102); }
+.gray40b { font-weight: bold; }
+.font_b { font-weight: bold; }
+.red14_b { color: rgb(204, 51, 0); font-weight: bold; font-size: 14px; }
+.red_b { color: rgb(204, 51, 0); font-weight: bold; }
+.grayb { color: rgb(255, 255, 255); font-weight: bold; }
+.gray666b { color: rgb(102, 102, 102); font-weight: bold; }
+.pot { letter-spacing: -3px; }
+.clear { clear: both; }
+ul, ol, li { list-style: outside none none; }
+.main_frame { width: 960px; margin: auto; border-left: 1px solid rgb(255, 255, 255); border-right: 1px solid rgb(255, 255, 255); background-color: rgb(255, 255, 255); }
+.main_right { float: left; width: 779px; margin-left: 10px; margin-top: 10px; }
+.page_more { height: 30px; padding-top: 18px; width: 772px; }
+.turn_page { float: right; }
+.add_top { margin-top: 5px; margin-right: 5px; }
+.turn_page div { float: left; display: block; }
+.turn_page img { float: left; margin-right: 6px; }
+.num_now { background: rgb(204, 51, 0) none repeat scroll 0% 0%; padding: 0px 2px; margin: 0px 2px; color: rgb(255, 255, 255); height: 15px; overflow: hidden; line-height: 15px; float: left; }
+.num:link { background: rgb(254, 238, 194) none repeat scroll 0% 0%; padding: 1px 4px; margin: 2px; color: rgb(64, 64, 64); text-decoration: none; }
+.num:visited { background: rgb(254, 238, 194) none repeat scroll 0% 0%; padding: 1px 4px; margin: 2px; color: rgb(64, 64, 64); text-decoration: none; }
+.num:hover { background: rgb(204, 51, 0) none repeat scroll 0% 0%; padding: 1px 4px; margin: 2px; color: rgb(255, 255, 255); text-decoration: none; }
+.tiaozhuan { width: 30px; padding-left: 2px; border: 1px solid rgb(175, 175, 175); margin: 0px 4px; height: 13px; line-height: 13px; float: left; }
+.t_text { padding-top: 2px; }
+.next { margin-right: 39px ! important; margin-left: 8px; }
+.enter { margin-left: 6px; margin-right: 0px ! important; }

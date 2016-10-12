@@ -1,0 +1,1 @@
+DD_ADSMART.cpt_ad[11850]={"cpt_type":0,"ad_content":[{"ad_url":"tjump.php?q=dgjM3J3vwI73iysi65%2BdQM66gchOzoMwY4pPEs3JLwMOHx8qhK4PRYhXc%2FLbfPUhuI2nd3zBD6tZX%2BL9UqvOqVn4pzsttew0Ge0MeKvPPEDxOY3IxliyMluCEvxjEiqXBaH","ad_img":"http:\/\/img63.ddimg.cn\/2016\/9\/27\/2016092715105277752.jpg","ad_img_big":"","ad_label":0,"ad_des":""}],"type":"3"}

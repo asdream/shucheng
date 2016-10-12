@@ -1,0 +1,153 @@
+/* Code tidied up by ScrapBook */
+.book_six_col_module li a, .book_six_col_module li span { display: block; }
+.navigation_module { color: rgb(68, 68, 68); padding: 15px 0px; line-height: 18px; }
+.navigation_module a.focus:hover, .navigation_module span.focus { color: rgb(153, 153, 153); }
+.navigation_module a.focus { color: rgb(153, 153, 153); padding: 0px; background: transparent none repeat scroll 0px 0px; }
+.navigation_module a:hover { color: rgb(33, 76, 144); }
+.navigation_module a { padding-right: 20px; background: transparent url("breadcrumb_arrow.png") no-repeat scroll right center; }
+.book_six_col_module { border: 1px solid rgb(234, 234, 234); margin-bottom: 50px; }
+.book_six_col_module h4 { padding-left: 42px; }
+.book_six_col_module li { width: 114px; margin: 0px 42px; float: left; padding-bottom: 20px; }
+.book_six_col_module li img { width: 114px; height: 165px; vertical-align: top; }
+.book_six_col_module li .name { font-size: 14px; line-height: 24px; height: 48px; overflow: hidden; }
+.book_six_col_module li .author { position: relative; line-height: 24px; }
+.book_six_col_module li .price { position: absolute; right: 0px; top: 0px; color: rgb(237, 62, 1); }
+.book_six_col_module li .add_cart_btn { font-size: 14px; color: rgb(251, 110, 26); text-align: center; border: 1px solid rgb(251, 110, 26); height: 44px; line-height: 44px; cursor: pointer; display: none; }
+.cart_result_container { border: 1px solid rgb(234, 234, 234); padding-top: 48px; margin-bottom: 70px; text-align: center; }
+.cart_result_container .bug_success_container, .cart_result_container .multi_products_container, .cart_result_container .recharge_success_container, .cart_result_container .single_product_container { display: none; }
+.cart_result_container .null { font-size: 18px; color: rgb(68, 68, 68); height: 100px; line-height: 100px; margin-bottom: 20px; }
+.cart_result_container .result_detail { font-size: 16px; font-weight: 700; line-height: 40px; }
+.cart_result_container .result_detail em { color: rgb(237, 82, 35); font-weight: 700; }
+.cart_result_container .timer { font-size: 14px; color: rgb(153, 153, 153); line-height: 30px; margin-bottom: 39px; }
+.cart_result_container .result { font-size: 18px; color: rgb(68, 68, 68); display: inline-block; width: 100px; height: 100px; line-height: 100px; border: 2px solid rgb(251, 110, 26); border-radius: 100px; margin-bottom: 20px; }
+.cart_result_container .button { margin-bottom: 52px; font-size: 16px; }
+.cart_result_container .button a { display: inline-block; width: 140px; height: 38px; line-height: 40px; border-radius: 3px; }
+.cart_result_container .button .go_reader_btn, .cart_result_container .button .go_shelf_btn { background-color: rgb(251, 110, 26); border: 1px solid rgb(251, 110, 26); color: rgb(255, 255, 255); margin-right: 10px; }
+.cart_result_container .button .go_store_btn { border: 1px solid rgb(251, 110, 26); color: rgb(251, 110, 26); }
+.pay_methord_module, .three_col_books_module { border: 1px solid rgb(234, 234, 234); }
+.three_col_books_module h4 { position: relative; padding: 0px 35px; }
+.three_col_books_module h4 span { font-size: 12px; color: rgb(151, 151, 151); position: absolute; right: 35px; top: 0px; cursor: pointer; }
+.three_col_books_module .books_container { height: 202px; overflow: hidden; }
+.three_col_books_module .index_smallcell_module { width: 329px; padding: 0px 35px 40px; float: left; }
+.three_col_books_module .index_smallcell_module .bookcover { float: left; }
+.three_col_books_module .index_smallcell_module .bookinfo { float: left; padding-left: 10px; width: 176px; }
+.three_col_books_module .index_smallcell_module .bookinfo .title { font-size: 16px; height: 44px; overflow: hidden; line-height: 22px; margin-bottom: 22px; }
+.three_col_books_module .index_smallcell_module .bookinfo .author { font-size: 14px; line-height: 22px; color: rgb(102, 102, 102); margin-bottom: 12px; }
+.three_col_books_module .index_smallcell_module .bookinfo .num { font-size: 16px; margin-bottom: 10px; color: rgb(136, 136, 136); }
+.three_col_books_module .index_smallcell_module .bookinfo .price { color: rgb(237, 62, 1); font-size: 16px; font-weight: 700; }
+.three_col_books_module .index_smallcell_module .bookinfo .price span { display: block; color: rgb(153, 153, 153); font-size: 14px; font-weight: 400; }
+.three_col_books_module .index_smallcell_module img { width: 114px; height: 162px; vertical-align: top; }
+.pay_methord_module { padding: 0px 35px; margin-bottom: 50px; }
+.pay_methord_module .payment_list { margin-bottom: 50px; }
+.pay_methord_module .payment_list li { background-color: rgb(243, 243, 243); margin-bottom: 7px; border: 1px solid rgb(234, 234, 234); }
+.pay_methord_module .payment_list .detail_list { display: none; padding-bottom: 10px; }
+.pay_methord_module .payment_list .detail_list p { padding: 0px 47px; font-size: 12px; color: rgb(136, 136, 136); line-height: 24px; }
+.pay_methord_module .payment_list .detail_list label { font-weight: 400; }
+.pay_methord_module .payment_list .detail_list .left { width: 965px; }
+.pay_methord_module .payment_list .detail_list .right { width: auto; }
+.pay_methord_module .payment_list .detail_list p::after { content: " "; display: block; visibility: hidden; clear: both; }
+.pay_methord_module .payment_list .sum_line { padding: 0px 0px 0px 20px; line-height: 53px; height: 53px; font-size: 14px; }
+.pay_methord_module .payment_list .sum_line .money { width: 94px; display: block; height: 30px; line-height: 30px; vertical-align: top; }
+.pay_methord_module .payment_list .sum_line .time { cursor: pointer; display: block; height: 23px; line-height: 23px; vertical-align: top; font-size: 12px; color: rgb(136, 136, 136); position: relative; }
+.pay_methord_module .payment_list .sum_line .time .down, .pay_methord_module .payment_list .sum_line .time .up { position: absolute; display: block; width: 0px; height: 0px; overflow: hidden; border-right: 5px dotted transparent; border-left: 5px dotted transparent; right: 10px; }
+.pay_methord_module .payment_list .sum_line .time .down { top: 9px; border-top: 5px solid rgb(182, 182, 182); border-bottom: 5px dotted transparent; }
+.pay_methord_module .payment_list .sum_line .time .up { top: 3px; border-top: 5px dotted transparent; border-bottom: 5px solid rgb(182, 182, 182); }
+.pay_methord_module .payment_list input { margin-right: 10px; }
+.pay_methord_module .payment_list label { font-size: 16px; font-weight: 700; }
+.pay_methord_module .payment_list .icon { margin-right: 10px; background: transparent url("../images/payment_icon.png") no-repeat scroll -3px 0px; }
+.pay_methord_module .payment_list .bell_icon { background-position: -2px -6px; }
+.pay_methord_module .payment_list .card_icon { background-position: -3px -42px; }
+.pay_methord_module .payment_list .liquan_icon { background-position: -3px -74px; }
+.pay_methord_module .payment_list .left { float: left; width: 950px; }
+.pay_methord_module .payment_list .right { float: left; width: 155px; }
+.pay_methord_module .button_line { margin-bottom: 50px; }
+.pay_methord_module .button_line a, .pay_methord_module .button_line span { display: inline-block; width: 130px; height: 34px; line-height: 34px; text-align: center; font-size: 14px; font-weight: 700; cursor: pointer; }
+.pay_methord_module .button_line .buy_btn { background-color: rgb(251, 110, 26); border: 1px solid rgb(251, 110, 26); color: rgb(255, 255, 255); margin-right: 15px; }
+.recharge_methord_module #getCartAllProductCnt, .recharge_methord_module #quickPayment { display: none; }
+.recharge_methord_module .recharge_total { background-color: rgb(251, 251, 251); border: 2px solid rgb(227, 227, 227); padding: 25px 43px; margin-bottom: 40px; }
+.recharge_methord_module .recharge_total .left { float: left; font-size: 18px; line-height: 54px; width: 850px; }
+.recharge_methord_module .recharge_total .right { float: left; border-left: 1px solid rgb(227, 227, 227); font-size: 14px; padding-left: 25px; line-height: 54px; }
+.recharge_methord_module .recharge_total .right .red_color { font-size: 24px; }
+.recharge_methord_module .red_color { color: rgb(237, 81, 35); }
+.recharge_methord_module .recharge_main { border: 1px solid rgb(227, 227, 227); padding: 0px 43px; margin-bottom: 20px; }
+.recharge_methord_module .recharge_main .row { border-top: 1px solid rgb(227, 227, 227); }
+.recharge_methord_module .recharge_main .noTopBorder { border-top: medium none; }
+.recharge_methord_module .recharge_main .product_value ul { border-bottom: medium none; }
+.recharge_methord_module .recharge_main span { display: inline-block; vertical-align: middle; }
+.recharge_methord_module .recharge_main img { vertical-align: top; }
+.recharge_methord_module .recharge_main li { width: 370px; float: left; margin-bottom: 24px; cursor: pointer; }
+.recharge_methord_module .recharge_main li .img_area { margin-left: 10px; }
+.recharge_methord_module .recharge_main .methord li img { border: 2px solid rgb(255, 255, 255); }
+.recharge_methord_module .recharge_main .methord li.current img { border: 2px solid rgb(255, 109, 30); }
+.recharge_methord_module .recharge_main .value li { width: 154px; height: 90px; margin: 0px 141px 40px 0px; background: transparent url("pay_methord_bg.png") no-repeat scroll left top; padding: 10px 0px 0px 75px; }
+.recharge_methord_module .recharge_main .value li.current { background: transparent url("pay_methord_selected_bg.png") no-repeat scroll left top; }
+.recharge_methord_module .recharge_main .pay_value li { background: transparent url("pay_methord_bg2.png") no-repeat scroll left top; padding-top: 25px; height: 75px; }
+.recharge_methord_module .recharge_main .pay_value li.current { background: transparent url("pay_methord_bg3.png") no-repeat scroll left top; }
+.recharge_methord_module .recharge_main .value .bell_num { line-height: 25px; height: 25px; }
+.recharge_methord_module .recharge_main .value .bell_num em { font-size: 22px; margin-right: 5px; }
+.recharge_methord_module .recharge_main .value .rmb { font-size: 16px; color: rgb(255, 70, 6); margin-bottom: 10px; line-height: 24px; height: 24px; }
+.recharge_methord_module .recharge_main .value .zs { font-size: 12px; color: rgb(255, 70, 6); }
+.recharge_methord_module .recharge_button { margin-bottom: 60px; width: 155px; }
+.recharge_methord_module .recharge_button .conf_button { display: block; width: 155px; height: 43px; text-align: center; line-height: 43px; color: rgb(255, 255, 255); font-size: 16px; font-weight: 700; border-radius: 4px; background-color: rgb(251, 110, 26); cursor: pointer; }
+.recharge_methord_module .recharge_button .conf_button:hover { background-color: rgb(231, 77, 9); }
+.recharge_methord_module .recharge_comment { font-size: 12px; line-height: 20px; margin-bottom: 175px; }
+.noEnoughLingdang, .payResult { display: none; width: 455px; border: 6px solid rgb(218, 218, 218); padding: 55px 55px 10px; top: 50%; left: 50%; margin-left: -288px; margin-top: -181px; position: fixed; background-color: rgb(255, 255, 255); z-index: 1000; }
+.noEnoughLingdang .closeBtn, .payResult .closeBtn { background: transparent url("closeBtn.jpg") no-repeat scroll right top; display: block; width: 16px; height: 16px; position: absolute; top: 10px; right: 10px; padding-left: 20px; padding-bottom: 20px; cursor: pointer; }
+.noEnoughLingdang .payDetail, .payResult .payDetail { margin-bottom: 15px; }
+.noEnoughLingdang .payDetail .col, .payResult .payDetail .col { width: 227px; float: left; text-align: center; padding-bottom: 15px; }
+.noEnoughLingdang .payDetail .borderRight, .payResult .payDetail .borderRight { border-right: 1px solid rgb(227, 227, 227); }
+.noEnoughLingdang .payDetail p, .payResult .payDetail p { color: rgb(51, 51, 51); font-size: 20px; font-weight: 700; line-height: 80px; }
+.noEnoughLingdang .payDetail .gray, .payResult .payDetail .gray { color: rgb(113, 112, 112); }
+.noEnoughLingdang .payDetail a, .payResult .payDetail a { display: inline-block; font-size: 18px; padding: 20px 0px; width: 185px; color: rgb(33, 76, 144); }
+.noEnoughLingdang .payDetail .buyNowButton, .payResult .payDetail .buyNowButton { background-color: rgb(251, 110, 26); color: rgb(255, 255, 255); }
+.noEnoughLingdang .comment, .payResult .comment { color: rgb(251, 110, 26); text-align: center; font-weight: 400; font-size: 16px; padding-bottom: 35px; }
+.noEnoughLingdang p { text-align: center; }
+.noEnoughLingdang .buttonLine { height: 40px; padding: 24px 0px 30px; }
+.load_module, .load_module .gray_bg { position: fixed; right: 0px; bottom: 0px; height: 100%; left: 0px; width: 100%; }
+.noEnoughLingdang span { padding: 7px 43px; margin: 0px 25px; }
+.noEnoughLingdang .cancelBtn { color: rgb(33, 76, 144); border: 1px solid rgb(33, 76, 144); }
+.noEnoughLingdang .goRechargePage { background-color: rgb(33, 76, 144); color: rgb(255, 255, 255); border: 1px solid rgb(33, 76, 144); }
+.load_module { display: none; z-index: 100; }
+.load_module .gray_bg { background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%; }
+.load_module .load_detail_container { text-align: center; line-height: 24px; position: absolute; left: 0px; top: 50%; width: 100%; height: 56px; margin-top: -28px; }
+.module_title { font-size: 16px; font-weight: 700; line-height: 50px; position: relative; }
+.module_title .more { position: absolute; right: 52px; top: 0px; cursor: pointer; }
+.cart_container .sum { font-size: 16px; height: 38px; line-height: 38px; color: rgb(255, 255, 255); background-color: rgb(104, 114, 128); display: inline-block; padding: 0px 10px; margin-bottom: 13px; }
+.cart_list { margin-bottom: 70px; }
+.cart_list table { border: 1px solid rgb(234, 234, 234); }
+.cart_list thead { height: 30px; line-height: 30px; background-color: rgb(243, 243, 243); font-size: 12px; color: rgb(85, 85, 85); border: 1px solid rgb(227, 227, 227); }
+.cart_list thead tr td { padding: 0px; }
+.cart_list tr { border-bottom: 1px solid rgb(234, 234, 234); }
+.cart_list tr td { padding: 21px 0px; }
+.cart_list .col1 { width: 57px; }
+.cart_list .col2 { width: 94px; }
+.cart_list .col2 img { width: 70px; height: 100px; vertical-align: top; }
+.cart_list .col3 { width: 160px; text-align: left; }
+.cart_list .col4, .cart_list .col5 { width: 100px; }
+.cart_list .col6 { width: 120px; font-weight: 700; }
+.cart_list .col6 i { display: block; font-weight: 400; }
+.cart_list .col7 { width: 150px; }
+.cart_list .col7 span { display: block; float: left; text-align: center; width: 33.3%; }
+.cart_list .col7 .icon { display: block; margin: 0px auto; background: transparent url("../images/payment_icon.png") no-repeat scroll -3px 0px; }
+.cart_list .col7 .deviceType { background: transparent url("../images/icon_ebook.png") no-repeat scroll 0% 0%; height: 24px; width: 24px; }
+.cart_list .col7 .android_icon { background-position: 0px -96px; }
+.cart_list .col7 .pc_icon { background-position: 0px 0px; }
+.cart_list .col7 .pc_down_icon { background-position: 0px -24px; }
+.cart_list .col7 .ipad_icon { background-position: 0px -48px; }
+.cart_list .col7 .iphone_icon { background-position: 0px -72px; }
+.cart_list .col7 .apad_icon { background-position: 0px -120px; }
+.cart_list .col7 .doukan_icon { background-position: 0px -144px; }
+.cart_list .col7 .touch_icon { background-position: 0px -168px; }
+.cart_list .col7 .dktouch_icon { background-position: 0px -364px; }
+.cart_list .col8 { width: 100px; text-align: left; padding-left: 36px; }
+.cart_list .col8 span { display: block; cursor: pointer; }
+.cart_list .col8 .productsNum { display: inline; }
+.cart_list .checkbox { background: transparent url("../images/payment_icon.png") no-repeat scroll -5px -219px; cursor: pointer; }
+.cart_list .checkbox.selected { background-position: -5px -254px; }
+.cart_list .cart_footer td { height: 42px; line-height: 42px; padding: 0px; }
+.cart_footer { background-color: rgb(243, 243, 243); color: rgb(1, 1, 1); font-size: 12px; }
+.cart_footer .collect_all_btn, .cart_footer .del_all_btn { cursor: pointer; }
+.cart_footer .settlement_btn { display: block; background-color: rgb(251, 110, 26); color: rgb(255, 255, 255); font-size: 18px; font-weight: 700; cursor: pointer; text-align: center; }
+.cart_footer .ft18 { font-size: 18px; font-weight: 700; color: rgb(237, 82, 35); margin-right: 20px; }
+.pay_methord_price_sum { padding-right: 75px; height: 38px; line-height: 38px; text-align: right; border-width: medium 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(234, 234, 234) rgb(234, 234, 234); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; color: rgb(0, 0, 0); background-color: rgb(243, 243, 243); margin-bottom: 30px; }
+.pay_methord_price_sum em { color: rgb(237, 62, 1); font-size: 18px; margin-right: 15px; }

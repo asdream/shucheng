@@ -1,0 +1,81 @@
+/*导航栏*/
+.daohang{
+    clear: both;/*上面的是向左浮动*/
+    position: relative;
+    z-index: 1;
+}
+/*导航1*/
+.daohang .daohang1{
+    width: 100%;
+    height: 35px;
+    position: relative;
+    background-color: red;
+}
+.daohang .daohang1 ul{
+    list-style: none;
+}
+.daohang .daohang1 ul li{
+    float: left;
+    padding: 8.7px 14px;
+}
+.daohang .daohang1 ul li:hover{
+    background-color: #d00;
+    cursor: pointer;
+}
+.daohang .daohang1 ul li a, .daohang .daohang1 ul li.daohang1-menu{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.daohang .daohang1 ul li.daohang1-menu:hover{
+    background-color: red;
+}
+.daohang .daohang1 ul li .daohang1-img{
+    position: absolute;/*父/祖父控件中有设置了position的（.daohang1），因此这里的绝对布局是相对于.daohang1来说的*/
+    top: -10px;
+}
+/*导航1弹出菜单*/
+.daohang .daohang1 .daohang1-menu-pop{
+    /*width: 180px;/!*添加弹出部分则设置width*!/*/
+    background-color: #eee;
+    box-shadow: 1px 1px 5px rgba( 87, 87, 87, 0.4);
+
+    position: absolute;
+    z-index: 3;/*深度值要大*/
+}
+.daohang .daohang1 .daohang1-menu-pop ul{
+    list-style: none;
+}
+.daohang .daohang1 .daohang1-menu-pop ul li{
+    width: 180px;
+    clear: both;/*取消向左浮动*/
+    display: block;
+    padding: 8px 0px;
+    padding-left: 14px ;
+}
+.daohang .daohang1 .daohang1-menu-pop ul li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.daohang .daohang1 .daohang1-menu-pop ul li a{
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+
+/*导航2*/
+.daohang .daohang2{
+    width: 100%;
+    position: relative;
+    background-color: #eee;
+}
+.daohang .daohang2 ul{
+    list-style: none;
+}
+.daohang .daohang2 ul li{
+    float: left;
+    padding: 8px 14px;
+    font-size: 12px;
+}

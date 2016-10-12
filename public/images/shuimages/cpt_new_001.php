@@ -1,0 +1,1 @@
+DD_AD.cpt_ad['bottom_pro_10005496']=[]
