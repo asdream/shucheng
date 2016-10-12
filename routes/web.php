@@ -122,7 +122,7 @@ Route::get('payfotemr',function () {
   /********************购物车结束************************************/
 
   /****************************res账户余额开始***************************************/
-  Route::get('/res',function(){
+  Route::get("/res",function(){
  
 	return view('res.index');
  });
