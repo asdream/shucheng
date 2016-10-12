@@ -23,6 +23,15 @@
  
  });
  
+ //心好累
+ Route::get('/caonima',function(){
+     return 'caoniumadebi';
+     
+     
+ });
+ 
+ 
+ 
  
  
 /*  //关于前台登陆
